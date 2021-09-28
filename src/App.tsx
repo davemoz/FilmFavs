@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useTMDB } from './hooks/useTMDB';
+import { MovieList } from './MovieList/MovieList';
 
-function App() {
+import './App.scss';
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+const App = () => {
+  const [data, error] = useTMDB('DISCOVER');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <h1 className='title'>FilmFavs</h1>
+      {!!error && 'There was an error fetching the movies list.'}
+      {!!data && <MovieList movies={data.results} />}
     </div>
   );
-}
+};
 
 export default App;
