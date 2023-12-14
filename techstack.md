@@ -1,42 +1,52 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 davemoz/FilmFavs is built on the following main stack:
+
 - [Firebase](https://firebase.google.com/) – Realtime Backend / API
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [React](https://reactjs.org/) – Javascript UI Libraries
+- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
 - [ESLint](http://eslint.org/) – Code Review
 - [Yarn](https://yarnpkg.com/) – Front End Package Manager
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 davemoz/FilmFavs is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/116/cZLxNFZS.jpg' alt='Firebase'/> [Firebase](https://firebase.google.com/) – Realtime Backend / API
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/5848/44mC-kJ3.jpg' alt='Yarn'/> [Yarn](https://yarnpkg.com/) – Front End Package Manager
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [davemoz/FilmFavs](https://github.com/davemoz/FilmFavs)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|26<br/>Tools used|11/09/23 <br/>Report generated|
+|29<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -69,7 +79,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (2)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'>
@@ -87,15 +97,31 @@ Full tech stack [here](/techstack.md)
   <sub>v17.0.2</sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'>
+  <br>
+  <sub><a href="http://sass-lang.com/">Sass</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (1)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (2)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/116/cZLxNFZS.jpg' alt='Firebase'>
   <br>
   <sub><a href="https://firebase.google.com/">Firebase</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'>
+  <br>
+  <sub><a href="https://github.com/pgvector/pgvector/">pgvector</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -156,10 +182,31 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
+## Other (2)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2270/no-img-open-source.png' alt='HTML'>
+  <br>
+  <sub><a href="http://">HTML</a></sub>
+  <br>
+  <sub></sub>
+</td>
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (14)</h2>
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'>
+  <br>
+  <sub><a href="https://github.com/hwchase17/langchain">LangChain</a></sub>
+  <br>
+  <sub></sub>
+</td>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (14)
+</tr>
+</table>
+
+
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (13)</h2>
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (13)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -176,9 +223,8 @@ Full tech stack [here](/techstack.md)
 |[firebase-admin](https://www.npmjs.com/firebase-admin)|v9.11.1|09/28/21|davemoz |Apache-2.0|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v17.0.2|09/28/21|davemoz |MIT|N/A|
 |[react-scripts](https://www.npmjs.com/react-scripts)|v4.0.3|09/28/21|davemoz |MIT|N/A|
-|[sass](https://www.npmjs.com/sass)|v1.40.1|09/28/21|davemoz |MIT|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
